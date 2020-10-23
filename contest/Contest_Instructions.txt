@@ -1,0 +1,87 @@
+Local Hands-On Contest
+
+OVERVIEW
+
+    In this folder is a pickle file called datafile.pickle.
+    It contains a dictionary that should be read into your program under the
+    name "people".
+
+    You can either write this program as a GUI or console-based.
+
+    The contest rubric is on the board, but is summarized here:
+
+        "runabilty" - does it run?  20 points possible
+        "Usability" - can it be used easily?  10 points possible
+        "Readability" - can your source code be easily read?  10 points possible
+
+        extra items that work 100%  5 points per item.
+        
+    You can ask for clarification of the criteria, but I will NOT answer
+    questions along the lines of "Is this right?"
+
+PROGRAM REQUIREMENTS
+
+    This program is for Big Brother Inc., and is a prototype for their database of
+    evrybody. They want to make sure of basic functionality before going on. If your
+    prototype is chosen, they have agreed to leave you out of the database...
+    
+    The dictionary is keyed by social security number, stored as a string. The
+    definition part right now consists of first and last names along with the person's
+    birth year.
+    
+    Users should be presented with the following options:
+        Print All Records
+        Look Up Person by SSN
+        Add New Person
+        Quit
+        
+    Print All Records:
+        When the user chooses this option (how is up to you), all records will be printed
+        to the console in this format:
+        
+            SSN: ###-##-####
+            Name: Last, First
+            Birth Year: ####
+            -------------------
+            
+    Look Up Person by SSN:
+        This option will asj the user for an SSN, and will then search the dictionary for
+        a matvh, if it finds one, print the record using the format above. If not, print
+        a suitable error message
+        
+    Add New Person:
+        This option will have the program ask the user for a new SSN. As long as that number
+        isn't already in the dictionary, it will then ask for first and last names, and a
+        birth year. The new entry will then be added. If the number DOES exist, print a
+        suitable error message instead.
+        
+    Quit:
+        No surpride here, this makes the program exit properly, making sure any changes to
+        the dictionary are preserved. (i.e. SAVED)
+    
+    It should go without saying that after an option is conmpleted, the user reutrns back
+    to the menu of options (except for Quit, that would be silly).
+    
+EXTRA ITEMS
+
+    These items cab be added if you have time. Each one that works 100% will add 5 points to
+    your score. Be aware this is all-or-nothing. so it is either 5 or 0. However, attemping
+    them will not decrease your score in any way, so it is worth trying them if time permits.
+    
+    Print all Items sorted by SSN:
+        The program doesn't require any particular order, but doing it by SSN makes it look nice
+        
+    Edit a record:
+        similar to adding one, this option would allow you instead to enter new information for an 
+        EXISTING record, and produce an error if the number DOESN'T exist.
+        
+    Delete a record:
+        After asking for an SSN, the program will remove that record.
+        
+    Look up based on Last Name:
+        This option would ask for a last name, and search the dictionary entries to see if any definitions
+        conatin the given name. If so, it will print ALL matches. If not, it will print a suitable
+        error meaasge.
+        
+GOOD LUCK!
+    

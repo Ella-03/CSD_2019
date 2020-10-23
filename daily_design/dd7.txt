@@ -1,0 +1,11 @@
+#Ella Adam
+#10/16/19
+
+As a:
+Company policy
+
+I would like:
+A way for visitors to get checked-in through a ID photo scaner
+
+So that:
+People who are not authorized cannot enter
